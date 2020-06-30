@@ -30,8 +30,7 @@ body{
     
 }
 #design-flow .menu{
-    width: 40%;
-    height: 20em;
+    width: 40%; 
     padding: 3em;
     border-radius: 1em 10em 1em 1em;
     background-color: hsl(228, 56%, 26%);
@@ -73,13 +72,14 @@ body{
 .remainder{
     float: right;
     width: 15em;
-    height: 8em;
+    height: 7em;
     background-color: #fff;
     color:  hsl(228, 56%, 26%);
-    padding: 2em;
-    margin-top: -25%;
+    padding: 1.5em;
+    margin-top: -55%;
     border-radius: 1em 1em 0 1em;
     position: relative;
+    text-align: center;
 }
 .remainder-text{
     font-size: 1.4em;
@@ -95,7 +95,7 @@ body{
     font-weight: lighter;
 }
 .progress-text span{
-    color: indianred;
+   
     font-size: 1.5em;
 }
 .progress-bar{
@@ -111,7 +111,7 @@ body{
     width: 81.5%;
     border-radius: 15em; 
     padding: 0.1em;  
-    background-image: linear-gradient(126.39deg, #db7da9 33.24%, #e2325b 111.89%);
+    background-image: linear-gradient(to right, #ffa399, #ff4d97);
 }
 .point{
     background-color: #fff;
@@ -126,4 +126,40 @@ body{
     justify-content: space-between;
     font-size: 1.4em;
     
+}
+
+
+@media screen and (max-width: 375px)
+{
+	*{
+		min-width: 0px;
+	}
+	body{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: ;
+        background-position: center ;
+    }
+    #design-flow{
+        margin: 0 auto;
+        padding: 2em;
+        display: block;
+        width: 98vw;
+    }
+   
+    #design-flow .menu{
+        width: 98%;
+        margin-bottom: 2em;
+    }
+    
+    #design-flow .user-space{
+        width: 98%;
+        padding: 1.5em;
+        margin-left: 0 ;
+    }
+    .remainder{
+        border-radius: 1em;
+        float: none;
+        margin: 0 auto;
+    }
 }
