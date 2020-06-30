@@ -76,7 +76,7 @@ body{
     background-color: #fff;
     color:  hsl(228, 56%, 26%);
     padding: 1.5em;
-    margin-top: -55%;
+    margin-top: -45%;
     border-radius: 1em 1em 0 1em;
     position: relative;
     text-align: center;
@@ -95,7 +95,6 @@ body{
     font-weight: lighter;
 }
 .progress-text span{
-   
     font-size: 1.5em;
 }
 .progress-bar{
